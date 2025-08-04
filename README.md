@@ -38,8 +38,8 @@ Key features include JWT-based authentication, product categorization, caching t
 - **Order History**: Users can view their order history.
 - **Order Notifications**: Real-time notifications on order status changes using **Django Channels**.
 
-### Role-Based Access Control (RBAC)
-- **Admin Access**: Admins can manage products, categories, and user permissions.
+### Role-Based Access Control
+- **Admin Access**: Admins can manage products, categories, and order status.
 - **Permissions**: Admin access controlled via Django REST framework’s permission classes.
 
 ## 🛠️ Technologies Used
@@ -92,25 +92,25 @@ pip install -r requirements.txt
 
 4. **Install and Run Redis:**
 
-### Installation:
+    #### Installation:
 
-- On macOS with Homebrew:
-```bash
-brew install redis
- ```
+    - On macOS with Homebrew:
+    ```bash
+    brew install redis
+    ```
 
- - On Linux:
-```bash
-sudo apt-get install redis-server
-```
-- On Windows:
+    - On Linux:
+    ```bash
+    sudo apt-get install redis-server
+    ```
+    - On Windows:
 
-Download and install Redis from Redis for Windows.
+    Download and install Redis from Redis for Windows.
 
-### Start Redis Server:
-```bash
-redis-server
-```
+    #### Start Redis Server:
+    ```bash
+    redis-server
+    ```
 
 5. **Setup the .env File:**
 
@@ -136,3 +136,6 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+
+## 📬 Postman Collection
+Postman Documentation link - https://documenter.getpostman.com/view/20668961/2sB3BANYUe
