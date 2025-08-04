@@ -62,33 +62,33 @@ Key features include JWT-based authentication, product categorization, caching t
 
 1. **Clone the Repository:**
 
-```bash
-git clone https://github.com/arjunvjn/ENLOG-Ecommerce.git
-cd ENLOG-Ecommerce/Ecommerce
-```
+    ```bash
+    git clone https://github.com/arjunvjn/ENLOG-Ecommerce.git
+    cd ENLOG-Ecommerce/Ecommerce
+    ```
 
 2. **Create and Activate a Virtual Environment:**
 
-```bash
-# Create virtual environment
-python -m venv myenv
+    ```bash
+    # Create virtual environment
+    python -m venv myenv
 
-# Activate virtual environment
-# On macOS/Linux:
-source myenv/bin/activate
+    # Activate virtual environment
+    # On macOS/Linux:
+    source myenv/bin/activate
 
-# On Windows (Command Prompt):
-myenv\Scripts\activate
+    # On Windows (Command Prompt):
+    myenv\Scripts\activate
 
-# On Windows (PowerShell):
-myenv\Scripts\Activate.ps1
-```
+    # On Windows (PowerShell):
+    myenv\Scripts\Activate.ps1
+    ```
 
 3. **Install the Required Packages:**
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Install and Run Redis:**
 
@@ -123,28 +123,28 @@ pip install -r requirements.txt
 
 5. **Setup the .env File:**
 
-Create a .env file in the root of your project (next to manage.py).
+    Create a .env file in the root of your project (next to manage.py).
 
-```bash
-# PostgreSQL settings
-DB_NAME=your-database-name
-DB_USER=your-database-user
-DB_PASSWORD=your-database-password
-DB_HOST=localhost
-DB_PORT=5432
-```
+    ```bash
+    # PostgreSQL settings
+    DB_NAME=your-database-name
+    DB_USER=your-database-user
+    DB_PASSWORD=your-database-password
+    DB_HOST=localhost
+    DB_PORT=5432
+    ```
 
 6. **Migrate the Database:**
 
-```bash
-python manage.py migrate
-```
+    ```bash
+    python manage.py migrate
+    ```
 
 7. **Run the Django Server:**
 
-```bash
-python manage.py runserver
-```
+    ```bash
+    python manage.py runserver
+    ```
 
 ## 📬 Postman Collection
 Postman Documentation link - https://documenter.getpostman.com/view/20668961/2sB3BANYUe
