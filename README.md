@@ -94,23 +94,32 @@ pip install -r requirements.txt
 
     #### Installation:
 
-    - On macOS with Homebrew:
-    ```bash
-    brew install redis
-    ```
+    - On macOS with Homebrew :
+        ```bash
+        brew install redis
+        ```
 
-    - On Linux:
-    ```bash
-    sudo apt-get install redis-server
-    ```
-    - On Windows:
+    - On Linux :
+        ```bash
+        sudo apt-get install redis-server
+        ```
+    - On Windows :
 
-    Download and install Redis from Redis for Windows.
+        Download and install Redis from Redis for Windows.
 
     #### Start Redis Server:
-    ```bash
-    redis-server
-    ```
+    - On macOS with Homebrew :
+        ```bash
+        brew services start redis
+        ```
+    - Manually (Without Homebrew) :
+        ```bash
+        redis-server
+        ```
+    - For Ubuntu/Debian (Linux) :
+        ```bash
+        sudo systemctl start redis-server
+        ```
 
 5. **Setup the .env File:**
 
